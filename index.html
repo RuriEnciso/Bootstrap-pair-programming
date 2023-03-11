@@ -1,82 +1,67 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<head>
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <!-- <nav class="navbar navbar-expand-lg navbar-light link-dark" style="background-color: #3c3a39">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Damian & Ruri</a>
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-          <div class="  collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">about</a>
-              </li>
+  <title>Hello, world!</title>
+</head>
 
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Contact</a>
-              </li>
+<body>
 
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">✉</a>
-              </li>
-            </ul>
-
-        </div>
-      </nav> -->
-
-      <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link" href="#scrollspyHeading1">First</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#scrollspyHeading2">Second</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
-              <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
-            </ul>
-          </li>
+  <!-- NAV BAR -->
+  <div id="naVbar" class="container mw-100 pb-5 pt-5">
+    <div  class="row text-white ">
+      <div id="johnDoe" class="navText col-md-2 p-5px">John Doe</div>
+      <div class="navText col-md-6 p-5px"></div>
+      <div class="navText col-md-1 p-5px">Portfolio</div>
+      <div class="navText col-md-1 p-5px">About</div>
+      <div class="navText col-md-1 p-5px">Contact</div>
+      <div class="navText col-md-1 p-5px"><img id="envelope" src="/images/envelope.svg" alt=""></div>
+    </div>
+  </div>
+  <!-- MAIN SECTION lists -->
+  <div class="main">
+    <div id="mainVH" class="row">
+      <div class="col-md-2 d-flex flex-column justify-content-center">
+        <ul>
+          <li class="sociaMI"><img class="imgIcon" src="./images/header-Icons/git.png" alt="GitHub"></li>
+          <li class="sociaMI"><img class="imgIcon" src="./images/header-Icons/peace.png" alt="AgelList"></li>
+          <li class="sociaMI"><img class="imgIcon" src="./images/header-Icons/twitter.png" alt="Twitter"></li>
+          <li class="sociaMI"><img class="imgIcon" src="./images/header-Icons/m.png" alt="Mlogo"></li>
+          <li class="sociaMI"><img class="imgIcon" src="./images/header-Icons/Linkedin.png" alt="LinkedIn"></li>
         </ul>
-      </nav>
-
-      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
-        <h4 id="scrollspyHeading1">First heading</h4>
-        <p>...</p>
-        <h4 id="scrollspyHeading2">Second heading</h4>
-        <p>...</p>
-        <h4 id="scrollspyHeading3">Third heading</h4>
-        <p>...</p>
-        <h4 id="scrollspyHeading4">Fourth heading</h4>
-        <p>...</p>
-        <h4 id="scrollspyHeading5">Fifth heading</h4>
-        <p>...</p>
+      </div>
+       <!-- MAIN SECTION TEXT -->
+      <div class="col-md-5 d-flex flex-column justify-content-center">
+        <h1 class="text-lg" id="heyThere">Hey There. <br> I'm Alex</h1>
+        <h2 id="subT" class="text-white">I'm a software Developer</h2>
+        <p id="paragraph" class="text-white w-900">I can help you build a product , feature or website. Look through some of my work and experience! If you like
+          what you see and have a project you need coded,
+          don’t hesitate to contact me.</p>
       </div>
 
+      <div id="backIMG" class="col-md-5">
+             </div>
+    </div>
+  </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>
+
+
+b5
