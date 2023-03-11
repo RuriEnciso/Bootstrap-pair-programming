@@ -1,0 +1,63 @@
+
+#heyThere {
+color: #F55800;
+font-size: 8rem;
+font-family: 'Crete Round', serif;
+}
+
+#navi {
+    padding-bottom:  20px;
+    padding-top: 20px;
+    
+}
+
+.main {
+    height: 100vh;
+    background-color: #1C1A19;
+}
+
+#mainVH {
+    height: 100vh;
+}
+
+#backIMG {
+    background-image: url(/images/desktop/Illustration-header.png);
+    background-repeat: no-repeat;
+    background-position: right 0;
+    background-size: 73%;
+}
+
+#naVbar {
+    background-color: #3E3C3C;
+}
+.sociaMI {
+    padding-bottom: 3rem;
+    margin-left: 2rem;
+    list-style: none;
+    }
+
+.imgIcon{
+    height: 2rem;
+}
+
+#subT {
+    font-size: 4rem;
+    font-family: 'Inter', sans-serif;
+}
+
+#paragraph {
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.navText {
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+#johnDoe {
+    font-weight: 700;
+    padding-left: 10rem;
+}
+
+#envelope {
+    height: 1.4rem;}
